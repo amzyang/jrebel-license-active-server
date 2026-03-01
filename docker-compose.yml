@@ -3,5 +3,5 @@ services:
     build: .
     container_name: jrebel-license-active-server
     ports:
-      - "12345:12345"
+      - "127.0.0.1:12345:12345"
     restart: unless-stopped
